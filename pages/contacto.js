@@ -49,6 +49,8 @@ export default function From() {
     <Layout title="Duanly || Contacto" h1Title={"Contacto"}>
       <section className="container">
         <form
+          action="https://formsubmit.co/duanly1987@gmail.com"
+          method="POST"
           onSubmit={handleSubmit}
           className="row was-validated"
           autoComplete="true"
