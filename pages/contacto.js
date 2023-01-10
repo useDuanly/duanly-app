@@ -49,6 +49,8 @@ export default function From() {
     <Layout title="Duanly || Contacto" h1Title={"Contacto"}>
       <section className="container">
         <form
+          action="https://data.endpoint.space/clcprnk4p002108lecedrpmvb"
+          method="POST"
           onSubmit={handleSubmit}
           className="row was-validated"
           autoComplete="true"
