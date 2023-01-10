@@ -24,7 +24,7 @@ export default function useForm(initialForm, validateForm) {
 
     if (Object.keys(errors).length === 0) {
       helpHttp()
-        .post("duanly1987@gmail.com", {
+        .post("https://data.endpoint.space/clcprnk4p002108lecedrpmvb", {
           body: form,
           headers: {
             "Content-Type": "application/json",
